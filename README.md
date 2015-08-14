@@ -17,4 +17,4 @@ In this project, which wraps up Treehouse's Object-Oriented Programming badge, I
 
 *Provided files*: style.css, index.html (static)
 
-As always, please feel free to push changes if you have suggestions on cleaner or more efficient code! :)
+As always, please feel free to create a pull request if you have suggestions on cleaner or more efficient code! :)
