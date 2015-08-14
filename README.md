@@ -17,7 +17,7 @@ Finally, the ```Song``` prototype was branched out into a Media object, and I in
 **Stop**: Holds place in array, but calls above ```stop``` song prototype function<br>
 **Next**: Sets the next song in the ```songs``` array, calling the above ```play``` prototype function
 
-*Provided files*: style.css, index.html (static)
+*Provided files*: style.css, index.html (static)<br>
 *Project duration*: About 2 hours
 
 As always, please feel free to create a pull request if you have suggestions on cleaner or more efficient code! :)
