@@ -13,6 +13,7 @@ Song.prototype.stop = function() {
   this.isPlaying = false;
 };
 
+//Generates HTML code for index.html
 Song.prototype.toHTML = function() {
   var htmlString = '<li';
   
