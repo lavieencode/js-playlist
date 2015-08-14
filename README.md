@@ -1,7 +1,7 @@
 # js-playlist
 A Treehouse project, working with JavaScript constructors and prototypes.
 
-In this project, which wraps up Treehouse's Object-Oriented Programming badge, I was tasked with adding functionality to provided files to create a simple (non-funcitoning, musically speaking) web app using JavaScript.
+In this project, which wraps up Treehouse's Object-Oriented Programming badge, I was tasked with adding functionality to provided files to create a simple (non-functioning, musically speaking) web app using JavaScript.
 
 *Functions*:
 
