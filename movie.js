@@ -1,23 +1,24 @@
-function Song( title, artist, duration ) {
+function Movie( title, year, duration ) {
   Media.call(this, title, duration);
-  this.artist = artist;
+  this.year = year;
 }
 
-Song.prototype = Object.create(Media.prototype);
+Movie.prototype = Object.create(Media.prototype);
 
 //Generates HTML code for index.html
-Song.prototype.toHTML = function() {
+Movie.prototype.toHTML = function() {
   var htmlString = '<li';
   
-  //Checks if song is currently playing
+  //Checks if movie is currently playing
   if (this.isPlaying) {
     htmlString += ' class="current"';
   }
   
   htmlString += '>';
   htmlString += this.title;
-  htmlString += ' - ';
-  htmlString += this.artist;
+  htmlString += ' (';
+  htmlString += this.year;
+  htmlString += ') ';
   htmlString += '<span class="duration">';
   htmlString += this.duration;
   htmlString += '</span></li>';
